@@ -25,6 +25,7 @@ def while_iterator(number_of_times)
   while number_of_times < 7
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
+    number_of_times += 1
   end
 end
 # code your solution here using the "while" keyword
